@@ -14,7 +14,8 @@
   },
   "scripts": {
     "compile": "tsc",
-    "compile-watch": "tsc --watch"
+    "compile-watch": "tsc --watch",
+    "importmap": "jspm map ./dist/index.js ./dist/app.js -o importmap.json --flat-scope --map-base ."
   },
   "type": "module"
 }
